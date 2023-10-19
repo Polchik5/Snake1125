@@ -16,7 +16,8 @@ namespace ConsoleApp18
             string otvet = Console.ReadLine();
             if(otvet == "да") 
             {
-                gameRunning = false;
+                gameRunning = true;
+                Console.Clear();
                 graphics.Clear(Color.Black);
                 Main(null);
             }

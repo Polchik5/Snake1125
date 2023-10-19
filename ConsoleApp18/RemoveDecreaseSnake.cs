@@ -15,6 +15,7 @@ namespace ConsoleApp18
             if(snake.Count == 1)
             {
                 GameOver();
+                return;
             }
             var index = snake.Count - 1;
             snake.RemoveAt(index);
