@@ -49,17 +49,24 @@
     <Compile Include="CheckPressedKey.cs" />
     <Compile Include="CheckSnakeIntersect.cs" />
     <Compile Include="CleanTail.cs" />
+    <Compile Include="ConsoleScore.cs" />
+    <Compile Include="DecreaseScore.cs" />
+    <Compile Include="DrawBody.cs" />
     <Compile Include="DrawHead.cs" />
     <Compile Include="GameOver.cs" />
+    <Compile Include="GameRestart.cs" />
     <Compile Include="GenerateApple.cs" />
     <Compile Include="GetNextCoordinates.cs" />
     <Compile Include="IncreaseGameScore.cs" />
     <Compile Include="IncreaseGameSpeed.cs" />
     <Compile Include="IncreaseSnake.cs" />
+    <Compile Include="GeneratePoisApple.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="InitSnake.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RemoveDecreaseSnake.cs" />
     <Compile Include="SnakeEatApple.cs" />
+    <Compile Include="SnakeEatPoisApple.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

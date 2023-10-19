@@ -30,6 +30,9 @@ namespace ConsoleApp18
                 GameOver();
             if (key.Key == ConsoleKey.Spacebar)
                 ChangeGamePause();
+            if (key.Key == ConsoleKey.Enter)
+                GameRestart();
+
         }
     }
 }
