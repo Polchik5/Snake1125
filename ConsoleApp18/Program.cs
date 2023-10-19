@@ -24,7 +24,6 @@ namespace ConsoleApp18
         static int gameScore = 0; // кол-во очков
         static bool gameRunning = true; // если выставить в false, змейка перестанет бежать
         static bool gamePause = false; // если выставить в true, змейка перестанет бежать, обратное переключение запустит змейку вновь
-        static bool gameRestart = false;
         static bool controlBlock = false; // блокировка управления
        
 
@@ -78,6 +77,7 @@ namespace ConsoleApp18
                 if (CheckSnakeIntersect()) // проверка на то, что змейка пересекла себя
                 {
                     GameOver(); // стоп игры и вывод итогов
+
                 }
                 else if (SnakeEatApple()) // проверка на то, что змейка пересекла яблоко
                 {

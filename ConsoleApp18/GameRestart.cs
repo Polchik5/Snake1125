@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -11,7 +12,15 @@ namespace ConsoleApp18
         private static void GameRestart()
         {
             ///Поменять значение gameRestart на противоположное
-            gameRestart = !gameRestart;
+            Console.WriteLine("Хотите начать заново? ");
+            string otvet = Console.ReadLine();
+            if(otvet == "да") 
+            {
+                gameRunning = false;
+                graphics.Clear(Color.Black);
+                Main(null);
+            }
+
         }
     }
 }
